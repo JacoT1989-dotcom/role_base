@@ -8,11 +8,7 @@ const nextConfig = {
   },
   images: {
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "captivity.co.za",
-        pathname: "/wp-content/uploads/**",
-      },
+    
       {
         protocol: "https",
         hostname: "*.public.blob.vercel-storage.com",
